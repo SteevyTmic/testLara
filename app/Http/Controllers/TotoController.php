@@ -9,7 +9,7 @@ class TotoController extends Controller
 {
     public function getToto()
     {
-      return 'Une vie de toto :)';
+      return 'Une vie de toto 2222222 :)';
     }
 
     public function getMesProduits()
