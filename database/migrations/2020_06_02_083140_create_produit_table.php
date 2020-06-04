@@ -28,10 +28,7 @@ class CreateProduitTable extends Migration
             $table->integer('poids');
             $table->string('slug');
 
-            $table->bigInteger('categorie_id')->unsigned()->nullable();
-            $table->foreign('categorie_id')
-              ->references('id')
-              ->on('categorie');
+
 
             $table->timestamps();
         });
