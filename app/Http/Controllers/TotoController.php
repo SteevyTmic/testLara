@@ -14,7 +14,7 @@ class TotoController extends Controller
 
     public function getMesProduits()
     {
-    	return Produit::where('categorie_id', '4')->get();
+    	return Produit::all();
     }
     public function getMesProduits2()
     {
